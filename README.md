@@ -35,12 +35,12 @@ You can also just build the available Dockerfile and run the server from there u
 ```sh
 git submodule init
 git submodule update
-docker build -t ocean-dbs .
 ```
 
-Then you copy/paste the content of .env.example into .env (at the root of the project, and validate that everything is fine by running:
+Then you copy/paste the content of .env.example into .env (at the root of the project), and validate that everything is fine by running:
 
 ```sh
+docker build -t ocean-dbs .
 docker compose up
 ```
 
